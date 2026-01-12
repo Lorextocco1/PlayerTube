@@ -28,5 +28,5 @@ ________________________________________________________________________________
 👨‍💻 Spazio Sviluppatori (Open Source)
 Il codice del progetto è completamente visualizzabile e accessibile direttamente nella home di questa pagina. Siete liberi di studiarlo, modificarlo e adattarlo alle vostre esigenze.
 
-     [!IMPORTANT] Condizioni d'uso: Potete modificare il codice a piacimento, vi chiedo solo di citarmi come autore originale nei vostri video di sponsorizzazione o nelle vostre pagine GitHub dedicate.
+[!IMPORTANT] Condizioni d'uso: Potete modificare il codice a piacimento, vi chiedo solo di citarmi come autore originale nei vostri video di sponsorizzazione o nelle vostre pagine GitHub dedicate.
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________

@@ -1,0 +1,9 @@
+{
+  "name": "PlayerTube",
+  "id": "org.gnome.PlayerTube",
+  "description": "Geometric Offline Video Player.",
+  "requestFramePermissions": [],
+  "permissions": [
+    "filesystem"
+  ]
+}

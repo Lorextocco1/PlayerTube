@@ -1,0 +1,41 @@
+{
+  "name": "playertube",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Native AI-Powered Video Player",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "dist": "electron-builder --linux AppImage"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@google/genai": "^1.3.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0",
+    "electron": "31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "org.gnome.PlayerTube",
+    "productName": "PlayerTube",
+    "electronVersion": "31.0.0",
+    "linux": {
+      "target": ["AppImage"],
+      "category": "Video",
+      "executableName": "playertube"
+    },
+    "directories": {
+      "output": "dist_electron"
+    },
+    "files": [
+      "dist/**/*",
+      "main.js",
+      "package.json"
+    ]
+  }
+}
